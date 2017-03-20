@@ -26,7 +26,7 @@
 
     <script src="lebraries/javascript.js"></script>
 
-    <!-- FIM DOS SCRIPTS --> 
+    <!-- FIM DOS SCRIPTS -->
 </head>
 
 
@@ -48,7 +48,7 @@
     </nav>
 
     <div class="ind-botao">
-        <img src="images/botao.png"> <!-- alt="Botão Mobile" title="Botão Mobile" -->
+        <img src="images/botao.png">  <!-- alt="Botão Mobile" title="Botão Mobile" -->
     </div>
 
     <div class="ind-logo">

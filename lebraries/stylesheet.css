@@ -6,20 +6,25 @@ ul{margin: 0; padding: 0; list-style: none;}
 nav{float: left; width: 100%; background: #000000; font-weight: bold; font-family: Verdana,sans-serif; color: #FFFFFF;}
     nav li{float: left;}
 
-ind-desktoplogo
+/* ///// NAO MUDA EM NADA DEIXAR COMO COMENTARIO.   ind-descktop-logo{margin: 0; padding: 0; list-style: none;} ///// */
+
+
+
 
 /* SMARTPHONES INICIO */
 @media only screen and (max-width: 480px){
 
-nav {height: 50px; padding-left: 25%;}
-    nav li{width: 100%; display: none;}
+nav {height: 50px;}
+    nav li{position: relative; float: left; top: 51px; width: 90%; display: none; background: #A9CF46; height: 30px; padding-top: 10px; padding-bottom: 10px; padding-left: 10%; border-bottom: 1px #FFFFFF solid; color: #333333; cursor: pointer;}
 
 .ind-botao{position: absolute; width: 65%; top: 3px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
 
-ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
-ind-logo img{margin-top: 3px; max-height: 40px; }
+.ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+.ind-logo img{margin-top: 3px; max-height: 75px; margin-left: 20px; }
 }
 /* SMARTPHONES FIM */
+
+
 
 
 
@@ -27,16 +32,18 @@ ind-logo img{margin-top: 3px; max-height: 40px; }
 /* TABLETS INICIO */
 @media only screen and (min-width: 481px) and (max-width: 768px){
 
-nav {height: 60px; padding-left: 25%;}
-    nav li{width: 15%; display: none;}
+nav {height: 60px;}
+    nav li{position: relative; float: left; top: 61px; width: 90%; display: none; background: #A9CF46; height: 30px; padding-top: 10px; padding-bottom: 10px; padding-left: 10%; border-bottom: 1px #FFFFFF solid; color: #333333; cursor: pointer;}
 
-.ind-botao{position: absolute; width: 65%; top: 9px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
+    .ind-botao{position: absolute; width: 65%; top: 9px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
 
-ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
-ind-logo img{max-height: 55px; }
+.ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+.ind-logo img{margin-top: 3px; max-height: 75px; margin-left: 20px;}
 
 }
 /* TABLETS FIM*/
+
+
 
 
 
@@ -46,10 +53,11 @@ ind-logo img{max-height: 55px; }
 
 nav {height: 40px; padding-left: 25%; padding-top: 15px;}
     nav li{width: 15%; text-align: center;}
+    nav li:last-child{color: #A9CF46;}
 
 .ind-botao{display: none;}
 
-ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
-ind-logo img{margin-top: 0px; max-width: 100%; }
+.ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
+.ind-logo img{max-width: 100%; margin-top: 0; margin-left: 25px; }
 }
 /* DESKTOP FIM*/
