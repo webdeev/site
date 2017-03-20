@@ -3,10 +3,12 @@
 
 
 <head>
+    <!-- META TAG DA CODIFICAÇÃO DE ACENTOS -->
     <meta charset="utf-8">
-
+    <!-- TITULO DO SITE -->
     <title>WebdeV - Desenvolvilmento Web para todo o Brasil</title>
 
+    <!-- TODOS OS SCRIPTS E TAGS PRINCIPAIS -->
 
     <meta name="description" content="a WebdeV e uma empresa especializada em desenvolvimento web, ja estamos a 5 anos no mercado em todo o Brasil.">
 
@@ -21,6 +23,10 @@
     <link rel="stylesheet" href="lebraries/stylesheet.css">
 
     <script src="lebraries/jquery-3.2.0.js"></script>
+
+    <script src="lebraries/javascript.js"></script>
+
+    <!-- FIM DOS SCRIPTS --> 
 </head>
 
 

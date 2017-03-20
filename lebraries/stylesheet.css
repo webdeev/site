@@ -6,6 +6,7 @@ ul{margin: 0; padding: 0; list-style: none;}
 nav{float: left; width: 100%; background: #000000; font-weight: bold; font-family: Verdana,sans-serif; color: #FFFFFF;}
     nav li{float: left;}
 
+ind-desktoplogo
 
 /* SMARTPHONES INICIO */
 @media only screen and (max-width: 480px){
@@ -16,7 +17,7 @@ nav {height: 50px; padding-left: 25%;}
 .ind-botao{position: absolute; width: 65%; top: 3px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
 
 ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
-ind-logo img{max-width: 100%; }
+ind-logo img{margin-top: 3px; max-height: 40px; }
 }
 /* SMARTPHONES FIM */
 
@@ -32,7 +33,7 @@ nav {height: 60px; padding-left: 25%;}
 .ind-botao{position: absolute; width: 65%; top: 9px; right: 0; cursor: pointer; padding-right: 10%; text-align: right;}
 
 ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
-ind-logo img{max-width: 100%; }
+ind-logo img{max-height: 55px; }
 
 }
 /* TABLETS FIM*/
@@ -49,6 +50,6 @@ nav {height: 40px; padding-left: 25%; padding-top: 15px;}
 .ind-botao{display: none;}
 
 ind-logo{position: absolute; width: 25%; left: 0; top: 0; text-align: center;}
-ind-logo img{max-width: 100%; }
+ind-logo img{margin-top: 0px; max-width: 100%; }
 }
 /* DESKTOP FIM*/
